@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="davidmaisuradze:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>davidmaisuradze</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SOAPHomework.war">
+      <element id="artifact" artifact-name="davidmaisuradze:war exploded" />
+    </root>
+  </artifact>
+</component>
